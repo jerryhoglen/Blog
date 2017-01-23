@@ -1,4 +1,4 @@
-/*
+	/*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  background-color: #fff;
+	font-family: 'Oswald', sans-serif;
+	color: #090707;
+}
+
+/** navigation layout **/
+
+.menu-left a {
+	color: #000;
+	background-color: #fff;
+}
+
+.dropdown {
+	float: right;
+	margin-top: 1%;
+	margin-right: 5%;
+}
+
+button {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  border: 0;
+  background: transparent;
+}
+
+.glyphicon {
+	font-size: 1.5em;
+}
+
+a {
+	color: #fff;
+}
+
