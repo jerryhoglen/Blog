@@ -25,12 +25,13 @@ body {
 .menu-left a {
 	color: #000;
 	background-color: #fff;
+	background: transparent;
 }
 
 .dropdown {
 	float: right;
 	margin-top: 1%;
-	margin-right: 5%;
+	margin-right: 7%;
 }
 
 button {
